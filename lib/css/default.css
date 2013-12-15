@@ -1,0 +1,213 @@
+@font-face {  
+	font-family: "Bedizen";
+	src: url(https://dl.dropboxusercontent.com/u/16779447/linkstrifer.com/baka/light/font/bedizen.ttf) format("truetype");
+}
+@font-face {  
+	font-family: "Aldo PC";
+	src: url(https://dl.dropboxusercontent.com/u/16779447/linkstrifer.com/baka/light/font/aldopc.ttf) format("truetype");
+}
+
+::-webkit-scrollbar {
+	visibility: hidden;
+}
+
+body {
+	background: #000;
+	color: #fff;
+	font-family: "Aldo PC";
+	font-size: 15px;
+}
+
+article {
+	display: inline-block;
+	height: 700px;
+	float: left;
+	text-align: center;
+	margin: 0;
+	width: 1300px;
+}
+
+article li {
+	display: block;
+}
+
+p {
+	font-size: 2em;
+	margin: 50px auto;
+	width: 90%;
+}
+
+section {
+	height: 600px;
+	width: 350%;
+}
+
+/*individual*/
+
+#d4 img {
+	-moz-transform: scale(1.5);
+	-webkit-transform: scale(1.5);
+	-o-transform: scale(1.5);
+	-ms-transform: scale(1.5);
+	transform: scale(1.5);
+	position: relative;
+	z-index: -1;
+}
+
+#d2 p {
+	margin-top: 100px;
+}
+
+#d5 p,
+#d6 p {
+	margin-top: 200px;
+}
+
+#d4 img,
+#d10 img,
+#d11 img {
+	-moz-transform: scale(.5);
+	-webkit-transform: scale(.5);
+	-o-transform: scale(.5);
+	-ms-transform: scale(.5);
+	transform: scale(.5);
+	margin-top: -100px;
+}
+
+.t05 {
+	font-size: .5em;
+}
+
+.t1 {
+	font-size: 1em;
+}
+
+.t13 {
+	font-size: 1.3em;
+}
+
+.t15 {
+	font-size: 1.5em;
+}
+
+.t18 {
+	font-size: 1.8em;
+}
+
+.t2 {
+	font-size: 2em;
+}
+
+.t3 {
+	font-size: 3em;
+}
+
+.t4 {
+	font-size: 4em;
+}
+
+.t5 {
+	font-size: 5em;
+}
+
+.t20 {
+	font-size: 20em;
+}
+
+.luz {
+	background: #fff;
+	height: 50px;
+	position: absolute;
+	width: 1366px;
+}
+
+.luz li {
+	display: inline-block;
+	height: 50px;
+	width: 14% !important;
+}
+
+.arcoiris li {
+	width: 14%;
+}
+
+.rgb li,
+.cmyk li {
+	width: 33.3% !important;
+}
+
+/*colores fuente*/
+
+.fAzul1 {
+	color: #8ad5f0;
+}
+
+.fAzul2 {
+	color: #0099cc;
+}
+
+.fAmarillo {
+	color: #fefe00;
+}
+
+.fMorado {
+	color: #aa66cc;
+}
+
+.fNaranja {
+	color: #ffbb33;
+}
+
+.fNegro {
+	color: #000;
+}
+
+.fRojo {
+	color: #ff4444;
+}
+
+.fRosado {
+	color: #ffafaf;
+}
+
+.fVerde {
+	color: #99cc00;
+}
+
+/*colores fondo*/
+
+.bAzul1 {
+	background: #8ad5f0;
+}
+
+.bAzul2 {
+	background: #0099cc;
+}
+
+.bAmarillo {
+	background: #fefe00;
+}
+
+.bBlanco {
+	background: #fff;
+}
+
+.bMorado {
+	background: #aa66cc;
+}
+
+.bNaranja {
+	background: #ffbb33;
+}
+
+.bRojo {
+	background: #ff4444;
+}
+
+.bRosado {
+	background: #ffafaf;
+}
+
+.bVerde {
+	background: #99cc00;
+}
