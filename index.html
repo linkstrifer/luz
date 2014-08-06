@@ -14,19 +14,20 @@
 		$('h1').width(w);
 		$('li').width(w);
 		$('div.luz').width(w);
+		$(document).scrollTo( $('#d1'), 800 );
 	});
 	$(document).keydown(function(tecla) {
 		if( tecla.keyCode == 39) {
 			cont++;
 			if( cont == 13 ) {
-				cont = 1;
+				cont = 12;
 			}
 			$(document).scrollTo( $('#d'+cont), 800 );
 		}
 		if( tecla.keyCode == 37) {
 			cont--;
 			if( cont == 0 ) {
-				cont = 12;
+				cont = 1;
 			}
 			$(document).scrollTo( $('#d'+cont), 800 );
 		}
@@ -38,64 +39,24 @@
 		<h1 class="t20">La luz</h1>
 		<h2 class="t5">y</h2>
 		<h3 class="t20">
-			los <font class="fRojo">c</font><font class="fNaranja">o</font><font class="fAmarillo">l</font><font class="fVerde">o</font><font class="fAzul1">r</font><font class="fAzul2">e</font><font class="fMorado">s</font>
+			los <span class="fRojo">c</span><span class="fNaranja">o</span><span class="fAmarillo">l</span><span class="fVerde">o</span><span class="fAzul1">r</span><span class="fAzul2">e</span><span class="fMorado">s</span>
 		</h3>
+	</article>
+	<article id="d2" class="t4">
+		<div class="luz"></div>
+		<p><h1 class="bBlanco fNegro t2">Conceptos de luz blanca</h1>
+		<li class="bAzul1">La luz visible es una radiación comprendida dentro de una porción o sección del espectro electromagnético, que permite a los seres vivos ver los objetos que le rodean.
+		<li class="bVerde">Radiaciones de ondas electromagnéticas de diferentes frecuencias y longitudes.
+		<li class="bMorado">Partículas denominadas fotones.
 	</article>
 	<article id="d3">
 		<div class="luz"></div>
-		<p class="t4">Un rayo de sol, un haz de luz blanca, se hace pasar a través de un vidrio, se observa que esta luz sufre una descomposición y se separa en luces de diferentes colores. Estos colores son el <font class="fRojo">rojo</font>, <font class="fNaranja">naranja</font>, <font class="fAmarillo">amarillo</font>, <font class="fVerde">verde</font>, <font class="fAzul1">azul</font>, <font class="fAzul2">añil</font> y <font class="fMorado">violeta</font> (espectro).
+		<p class="t4">Un rayo de sol, un haz de luz blanca, se hace pasar a través de un vidrio, se observa que esta luz sufre una descomposición y se separa en luces de diferentes colores. Estos colores son el <span class="fRojo">rojo</span>, <span class="fNaranja">naranja</span>, <span class="fAmarillo">amarillo</span>, <span class="fVerde">verde</span>, <span class="fAzul1">azul</span>, <span class="fAzul2">añil</span> y <span class="fMorado">violeta</span> (espectro).
 		<p><img src="https://dl.dropboxusercontent.com/u/16779447/linkstrifer.com/baka/light/img/d2.png">
-	</article>	
-	<article id="d7" class="t2">
-		<div class="luz bNaranja"></div>
-		<p>Si aislamos uno solo, de entre los colores que atraviesan un prisma, y que, a su vez, se le hace pasar por otro prisma más para ver en qué se descompone, se comprobará que el color resultante es el mismo que se había introducido. Se habrá aislado, una radiación monocromática pura.
-		<p><img src="https://dl.dropboxusercontent.com/u/16779447/linkstrifer.com/baka/light/img/d7.png">
-	</article>
-	<article id="d11" class="t2">
-		<div class="luz cmyk">
-			<li class="bAzul1">
-			<li class="bRosado">
-			<li class="bAmarillo">
-		</div>
-		<p><h1 class="bBlanco fNegro t4">Color luz, síntesis aditiva</h1></p>
-		<p class="t15">La mezcla de los tres colores primarios pigmento en teoría debería producir el negro, el color más oscuro y de menor cantidad de luz, por lo cual esta mezcla es conocida como síntesis sustractiva. En la práctica el color así obtenido no es lo bastante intenso, motivo por el cual se le agrega negro pigmento conformandose el espacio de color <font class="bBlanco"><font class="fRosado">C</font><font class="fAzul1">M</font><font class="fAmarillo">Y</font><font class="fNegro">K</font></font>.
-		<p><img src="https://dl.dropboxusercontent.com/u/16779447/linkstrifer.com/baka/light/img/d11.png">
-	</article>
-	<article id="d8" class="t2">
-		<div class="luz rgb">
-			<li class="bRojo">
-			<li class="bVerde">
-			<li class="bAzul1">
-		</div>
-		<p><h1 class="t4 bBlanco"><font class="fNegro">Modelo <font class="fRojo">R</font><font class="fVerde">G</font><font class="fAzul1">B</font></font></h1>
-		<p class="t18">Los colores aditivos son los usados en trabajo gráfico con monitores de ordenador, ya que, según vimos cuando hablamos de los componentes gráficos de un ordenador, el monitor produce los puntos de luz partiendo de tres tubos de rayos catódicos, uno rojo, otro verde y otro azul. Por este motivo, el modelo de definición de colores usado en trabajos digitales es el modelo <font class="bBlanco"><font class="fRojo">R</font><font class="fVerde">G</font><font class="fAzul1">B</font></font> (<font class="fRojo">Red</font>, <font class="fVerde">Green</font>, <font class="fAzul1">Blue</font>). 
-	</article>
-	<article id="d6" class="t2">
-		<div class="luz bVerde"></div>
-		<p class="fBlanco">Puede afirmarse que la luz blanca no existe como tal en la Naturaleza, sino que es la suma de todo el conjunto de radiaciones visibles que, al integrarse en nuestro ojo, nos producen la sensación de blanco.
 	</article>
 	<article id="d4">
 		<div class="luz"></div>
-		<p class="t4">De acuerdo a esto, se puede entonces concluir que la luz blanca está constituida por la superposición de todos los  colores nombrados anteriormente. Al penetrar superpuestos los colores en el vidrio, cada <font class="fRojo">c</font><font class="fNaranja">o</font><font class="fAmarillo">l</font><font class="fVerde">o</font><font class="fAzul1">r</font> sufre una desviación distinta, por este motivo, el haz que penetra el vidrio se presenta en forma multicolor.
-		<p><img src="https://dl.dropboxusercontent.com/u/16779447/linkstrifer.com/baka/light/img/d10.png">
-	</article>
-	<article id="d9" class="t2">
-		<div class="luz cmyk">
-			<li class="bAzul1">
-			<li class="bRosado">
-			<li class="bAmarillo">
-		</div>
-		<p><h1 class="t4 bBlanco"><font class="fNegro">Modelo <font class="fRosado">C</font><font class="fAzul1">M</font><font class="fAmarillo">Y</font><font>K</font></font></h1>
-		<p>Efectivamente, la mezcla de pigmentos <font class="fAzul1">cian</font>, <font class="fRosado">magenta</font> y <font class="fAmarillo">amarillo</font> no produce el color blanco, sino un color gris sucio, neutro. En cuanto al negro, tampoco es posible obtenerlo a partir de los primarios, siendo necesario incluirlo en el conjunto de colores básicos sustractivos, obteniéndose el modelo <font class="bBlanco fAzul1">C</font><font class="bBlanco fRosado">M</font><font class="bBlanco fAmarillo">Y</font><font class="bBlanco fNegro"></font>. 
-	</article>
-	<article id="d10" class="t2">
-		<div class="luz rgb">
-			<li class="bRojo">
-			<li class="bVerde">
-			<li class="bAzul1">
-		</div>
-		<p><h1 class="bBlanco fNegro t4">Color luz, síntesis aditiva</h1></p>
-		<p class="t15">Los colores producidos por luces (en el monitor de nuestro ordenador, en el cine, televisión, etc.) tienen como colores primarios, <font class="fRojo">rojo</font>, <font class="fVerde">verde</font> y <font class="fAzul1">azul</font> (<font class="bBlanco"><font class="fRojo">R</font><font class="fVerde">G</font><font class="fAzul1">B</font></font>) cuya fusión de estos, crean y componen la luz blanca, por eso a esta mezcla se le denomina, síntesis aditiva y las mezclas parciales de estas luces dan origen a la mayoría de los colores del espectro visible.
+		<p class="t4">De acuerdo a esto, se puede entonces concluir que la luz blanca está constituida por la superposición de todos los  colores nombrados anteriormente. Al penetrar superpuestos los colores en el vidrio, cada <span class="fRojo">c</span><span class="fNaranja">o</span><span class="fAmarillo">l</span><span class="fVerde">o</span><span class="fAzul1">r</span> sufre una desviación distinta, por este motivo, el haz que penetra el vidrio se presenta en forma multicolor.
 		<p><img src="https://dl.dropboxusercontent.com/u/16779447/linkstrifer.com/baka/light/img/d10.png">
 	</article>
 	<article id="d5">
@@ -108,14 +69,54 @@
 			<li class="bAzul2">
 			<li class="bMorado">
 		</div>
-		<p class="t4">Este fenómeno, en el cual la luz blanca se separa en diversos colores, se denomina descomposición de la luz. Por lo tanto, al penetrar la luz blanca en el vidrio se descompone (o "dispersa") en los <font class="fRojo">c</font><font class="fNaranja">o</font><font class="fAmarillo">l</font><font class="fVerde">o</font><font class="fAzul1">r</font><font class="fAzul2">e</font><font class="fMorado">s</font> que la forman.
+		<p class="t4">Este fenómeno, en el cual la luz blanca se separa en diversos colores, se denomina descomposición de la luz. Por lo tanto, al penetrar la luz blanca en el vidrio se descompone (o "dispersa") en los <span class="fRojo">c</span><span class="fNaranja">o</span><span class="fAmarillo">l</span><span class="fVerde">o</span><span class="fAzul1">r</span><span class="fAzul2">e</span><span class="fMorado">s</span> que la forman.
 	</article>
-	<article id="d2" class="t4">
-		<div class="luz"></div>
-		<p><h1 class="bBlanco fNegro t2">Conceptos de luz blanca</h1>
-		<li class="bAzul1">La luz visible es una radiación comprendida dentro de una porción o sección del espectro electromagnético, que permite a los seres vivos ver los objetos que le rodean.
-		<li class="bVerde">Radiaciones de ondas electromagnéticas de diferentes frecuencias y longitudes.
-		<li class="bMorado">Partículas denominadas fotones.
+	<article id="d6" class="t2">
+		<div class="luz bVerde"></div>
+		<p class="fBlanco">Puede afirmarse que la luz blanca no existe como tal en la Naturaleza, sino que es la suma de todo el conjunto de radiaciones visibles que, al integrarse en nuestro ojo, nos producen la sensación de blanco.
+	</article>	
+	<article id="d7" class="t2">
+		<div class="luz bNaranja"></div>
+		<p>Si aislamos uno solo, de entre los colores que atraviesan un prisma, y que, a su vez, se le hace pasar por otro prisma más para ver en qué se descompone, se comprobará que el color resultante es el mismo que se había introducido. Se habrá aislado, una radiación monocromática pura.
+		<p><img src="https://dl.dropboxusercontent.com/u/16779447/linkstrifer.com/baka/light/img/d7.png">
+	</article>
+	<article id="d8" class="t2">
+		<div class="luz rgb">
+			<li class="bRojo">
+			<li class="bVerde">
+			<li class="bAzul1">
+		</div>
+		<p><h1 class="t4 bBlanco"><span class="fNegro">Modelo <span class="fRojo">R</span><span class="fVerde">G</span><span class="fAzul1">B</span></span></h1>
+		<p class="t18">Los colores aditivos son los usados en trabajo gráfico con monitores de ordenador, ya que, según vimos cuando hablamos de los componentes gráficos de un ordenador, el monitor produce los puntos de luz partiendo de tres tubos de rayos catódicos, uno rojo, otro verde y otro azul. Por este motivo, el modelo de definición de colores usado en trabajos digitales es el modelo <span class="bBlanco"><span class="fRojo">R</span><span class="fVerde">G</span><span class="fAzul1">B</span></span> (<span class="fRojo">Red</span>, <span class="fVerde">Green</span>, <span class="fAzul1">Blue</span>). 
+	</article>
+	<article id="d9" class="t2">
+		<div class="luz cmyk">
+			<li class="bAzul1">
+			<li class="bRosado">
+			<li class="bAmarillo">
+		</div>
+		<p><h1 class="t4 bBlanco"><span class="fNegro">Modelo <span class="fRosado">C</span><span class="fAzul1">M</span><span class="fAmarillo">Y</span><span>K</span></span></h1>
+		<p>Efectivamente, la mezcla de pigmentos <span class="fAzul1">cian</span>, <span class="fRosado">magenta</span> y <span class="fAmarillo">amarillo</span> no produce el color blanco, sino un color gris sucio, neutro. En cuanto al negro, tampoco es posible obtenerlo a partir de los primarios, siendo necesario incluirlo en el conjunto de colores básicos sustractivos, obteniéndose el modelo <span class="bBlanco fAzul1">C</span><span class="bBlanco fRosado">M</span><span class="bBlanco fAmarillo">Y</span><span class="bBlanco fNegro"></span>. 
+	</article>
+	<article id="d10" class="t2">
+		<div class="luz rgb">
+			<li class="bRojo">
+			<li class="bVerde">
+			<li class="bAzul1">
+		</div>
+		<p><h1 class="bBlanco fNegro t4">Color luz, síntesis aditiva</h1></p>
+		<p class="t15">Los colores producidos por luces (en el monitor de nuestro ordenador, en el cine, televisión, etc.) tienen como colores primarios, <span class="fRojo">rojo</span>, <span class="fVerde">verde</span> y <span class="fAzul1">azul</span> (<span class="bBlanco"><span class="fRojo">R</span><span class="fVerde">G</span><span class="fAzul1">B</span></span>) cuya fusión de estos, crean y componen la luz blanca, por eso a esta mezcla se le denomina, síntesis aditiva y las mezclas parciales de estas luces dan origen a la mayoría de los colores del espectro visible.
+		<p><img src="https://dl.dropboxusercontent.com/u/16779447/linkstrifer.com/baka/light/img/d10.png">
+	</article>
+	<article id="d11" class="t2">
+		<div class="luz cmyk">
+			<li class="bAzul1">
+			<li class="bRosado">
+			<li class="bAmarillo">
+		</div>
+		<p><h1 class="bBlanco fNegro t4">Color luz, síntesis aditiva</h1></p>
+		<p class="t15">La mezcla de los tres colores primarios pigmento en teoría debería producir el negro, el color más oscuro y de menor cantidad de luz, por lo cual esta mezcla es conocida como síntesis sustractiva. En la práctica el color así obtenido no es lo bastante intenso, motivo por el cual se le agrega negro pigmento conformandose el espacio de color <span class="bBlanco"><span class="fRosado">C</span><span class="fAzul1">M</span><span class="fAmarillo">Y</span><span class="fNegro">K</span></span>.
+		<p><img src="https://dl.dropboxusercontent.com/u/16779447/linkstrifer.com/baka/light/img/d11.png">
 	</article>
 	<article id="d12" class="t4">
 		<div class="luz arcoiris">
@@ -127,8 +128,8 @@
 			<li class="bAzul2">
 			<li class="bMorado">
 		</div>
-		<p><h1 class="fNegro t4"><font class="bBlanco">.Ñoooom</font></h1>
-		<p>...
-		<p>Caro Lawliet
+		<p><h1 class="fNegro t4"><span class="bBlanco">.Ñoooom</span></h1></p>
+		<p>...</p>
+		<p>Nataly Caro</p>
 	</article>
 </section>

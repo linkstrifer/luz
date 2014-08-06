@@ -19,12 +19,13 @@ body {
 }
 
 article {
-	display: inline-block;
-	height: 700px;
-	float: left;
+	display: block;
+	height: 768px;
 	text-align: center;
 	margin: 0;
-	width: 1300px;
+	position: relative;
+	padding-top: 50px;
+	max-width: 100%;
 }
 
 article li {
@@ -95,35 +96,37 @@ section {
 }
 
 .t2 {
-	font-size: 2em;
+	font-size: 1em;
 }
 
 .t3 {
-	font-size: 3em;
+	font-size: 2em;
 }
 
 .t4 {
-	font-size: 4em;
+	font-size: 3em;
 }
 
 .t5 {
-	font-size: 5em;
+	font-size: 4em;
 }
 
 .t20 {
-	font-size: 20em;
+	font-size: 15em;
 }
 
 .luz {
 	background: #fff;
-	height: 50px;
+	height: 40px;
 	position: absolute;
-	width: 1366px;
+	width: 100%;
+	overflow: hidden;
+	top: 0;
 }
 
 .luz li {
 	display: inline-block;
-	height: 50px;
+	height: 100%;
 	width: 14% !important;
 }
 
